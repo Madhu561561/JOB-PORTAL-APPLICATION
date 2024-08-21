@@ -1,0 +1,35 @@
+#myvideo{
+    position: fixed;
+        right: 0;
+        bottom: 10;
+        min-height: 100%;  /* video fix.Now it wont be scroll up down /left right*/
+        min-width: 100%;
+}
+.card {
+    width: 380px !important; /*important bcz we are overwriting the existing class*/
+}
+.content {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);  /* 0.5 fro transparency*/
+    color: white;
+    width: 100%;
+    padding: 15px;
+}
+.myBtn {
+    width: 200px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 40px;
+    border: none;
+    background-color: #000; 
+    color: white;
+    cursor: pointer;
+}
+.myBtn:hover {
+    background-color: white;
+    color: #000;
+}
